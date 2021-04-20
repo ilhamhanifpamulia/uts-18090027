@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
-        <title>UTS 6C D4 Teknik Informatika</title>
+        <title>Edit Data</title>
     </head>
     <body>
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header text-center">
-                    CRUD Data Pegawai - <strong>EDIT DATA</strong>
+                <strong>EDIT DATA</strong>
                 </div>
                 <div class="card-body">
                     <a href="/hp" class="btn btn-primary">Kembali</a>
