@@ -10,7 +10,7 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header text-center">
-                    CRUD Data Pegawai - <strong>TAMBAH DATA</strong> - <a href="https://kagion.github.io/" target="_blank">By Sugiono</a>
+                    CRUD Data Pegawai - <strong>TAMBAH DATA</strong> - <a href="https://kagion.github.io/" target="_blank">By 18090027</a>
                 </div>
                 <div class="card-body">
                     <a href="/hp" class="btn btn-primary">Kembali</a>
@@ -20,22 +20,10 @@
                     <form method="post" action="/hp/store">
  
                         {{ csrf_field() }}
-
-                        <div class="form-group">
-                            <label>NIP</label>
-                            <input type="integer" name="nip" class="form-control" placeholder="Masukan nip pegawai">
- 
-                            @if($errors->has('nip'))
-                                <div class="text-danger">
-                                    {{ $errors->first('nip')}}
-                                </div>
-                            @endif
- 
-                        </div>
  
                         <div class="form-group">
-                            <label>Nama</label>
-                            <input type="text" name="nama" class="form-control" placeholder="Masukan nama pegawai">
+                            <label>Merk HP</label>
+                            <input type="text" name="nama" class="form-control" placeholder="Masukan Merk HP">
  
                             @if($errors->has('nama'))
                                 <div class="text-danger">
@@ -46,8 +34,8 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Alamat</label>
-                            <textarea name="alamat" class="form-control" placeholder="Masukan alamat pegawai"></textarea>
+                            <label>Tipe HP</label>
+                            <textarea name="alamat" class="form-control" placeholder="Masukan Tipe HP"></textarea>
  
                              @if($errors->has('alamat'))
                                 <div class="text-danger">
@@ -56,7 +44,19 @@
                             @endif
  
                         </div>
+
+                        <div class="form-group">
+                            <label>Tahun</label>
+                            <input type="integer" name="nip" class="form-control" placeholder="Masukan Tahun">
  
+                            @if($errors->has('nip'))
+                                <div class="text-danger">
+                                    {{ $errors->first('nip')}}
+                                </div>
+                            @endif
+ 
+                        </div>
+
                         <div class="form-group">
                             <input type="submit" class="btn btn-success" value="Simpan">
                         </div>
