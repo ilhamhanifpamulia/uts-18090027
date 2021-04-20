@@ -10,7 +10,7 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header text-center">
-                    CRUD - <a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a>
+                Aplikasi perekaman data HP - <a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a>
                 </div>
                 <div class="card-body">
                     <a href="/hp/tambah" class="btn btn-primary">Tambah Data Baru</a>

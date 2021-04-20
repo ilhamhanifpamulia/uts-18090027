@@ -10,7 +10,7 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header text-center">
-                Aplikasi perekaman data HP - <strong>TAMBAH DATA</strong> - <a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a>
+                <strong>TAMBAH DATA</strong> - <a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a>
                 </div>
                 <div class="card-body">
                     <a href="/hp" class="btn btn-primary">Kembali</a>
@@ -58,7 +58,7 @@
                         </div>
 
                         <div class="form-group">
-                            <input type="submit" class="btn btn-success" value="Simpan">
+                            <input type="submit" class="btn btn-warning" value="Simpan">
                         </div>
  
                     </form>
