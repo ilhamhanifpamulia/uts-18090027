@@ -48,7 +48,7 @@
 
 
 
-   
+
 
     <!-- contact section start -->
     <section class="contact" id="contact">
@@ -81,28 +81,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="column right">
-                    <div class="text">Message me</div>
-                    <form class="contact-form" action="#" method="POST">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" class="fullname" placeholder="Name">
-                            </div>
-                            <div class="field email">
-                                <input type="text" class="email-input" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="field">
-                            <input type="text" class="subject" placeholder="Subject">
-                        </div>
-                        <div class="field textarea">
-                            <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
-                        </div>
-                        <div class="button-area">
-                            <button class="send-msg" type="submit" name="send">Send message</button>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
