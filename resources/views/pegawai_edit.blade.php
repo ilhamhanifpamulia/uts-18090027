@@ -23,17 +23,7 @@
                         {{ csrf_field() }}
                         {{ method_field('PUT') }}
 
-                        <div class="form-group">
-                            <label>Tahun produksi</label>
-                            <input type="integer" name="nip" class="form-control" placeholder="nip pegawai" value=" {{ $pegawai->nip }}">
- 
-                            @if($errors->has('nip'))
-                                <div class="text-danger">
-                                    {{ $errors->first('nip')}}
-                                </div>
-                            @endif
- 
-                        </div>
+
  
                         <div class="form-group">
                             <label>Nama</label>
@@ -54,6 +44,18 @@
                              @if($errors->has('alamat'))
                                 <div class="text-danger">
                                     {{ $errors->first('alamat')}}
+                                </div>
+                            @endif
+ 
+                        </div>
+
+                        <div class="form-group">
+                            <label>Tahun produksi</label>
+                            <input type="integer" name="nip" class="form-control" placeholder="nip pegawai" value=" {{ $pegawai->nip }}">
+ 
+                            @if($errors->has('nip'))
+                                <div class="text-danger">
+                                    {{ $errors->first('nip')}}
                                 </div>
                             @endif
  
