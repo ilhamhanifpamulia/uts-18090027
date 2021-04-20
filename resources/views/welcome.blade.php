@@ -20,7 +20,7 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <div class="logo"><a href="#">Pro<span>fil.ku</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
@@ -55,7 +55,7 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/profile-1.jpeg" alt="">
+                    <img src="images/ooo.JPG" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">I'm Sugiono and I'm a <span class="typing-2"></span></div>
