@@ -10,17 +10,18 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header text-center">
-                    CRUD Data Pegawai - <a href="https://kagion.github.io/" target="_blank">By Sugiono</a>
+                    CRUD Data Pegawai - <a href="https://kagion.github.io/" target="_blank">By !8090027</a>
                 </div>
                 <div class="card-body">
-                    <a href="/pegawai/tambah" class="btn btn-primary">Input Pegawai Baru</a>
+                    <a href="/pegawai/tambah" class="btn btn-primary">Tambah Data Baru</a>
                     <br/>
                     <br/>
                     <table class="table table-bordered table-hover table-striped">
                         <thead>
                             <tr>
-                                <th>Nama</th>
-                                <th>Alamat</th>
+                                <th>Merk HP</th>
+                                <th>Tipe HP</th>
+                                <th>Tahun</th>
                                 <th>OPSI</th>
                             </tr>
                         </thead>
@@ -29,6 +30,7 @@
                             <tr>
                                 <td>{{ $p->nama }}</td>
                                 <td>{{ $p->alamat }}</td>
+                                <td>{{ $p->nip }}</td>
                                 <td>
                                     <a href="/pegawai/edit/{{ $p->id }}" class="btn btn-warning">Edit</a>
                                     <a href="/pegawai/hapus/{{ $p->id }}" class="btn btn-danger">Hapus</a>
