@@ -41,8 +41,8 @@
           <div class="row">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Sugiono</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <div class="text-2">Ilham Hanif Pamulia</div>
+                <div class="text-3">NIM : <span class="typing"></span></div>
                 <a href="#">Hire me</a>
             </div>
           </div>
@@ -58,7 +58,7 @@
                     <img src="images/ooo.JPG" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Sugiono and I'm a <span class="typing-2"></span></div>
+                    <div class="text">Saya Ilham Hanif Pamulia dan NIM Ku :  <span class="typing-2"></span></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
                     <a href="#">Download CV</a>
                 </div>
