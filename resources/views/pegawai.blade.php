@@ -13,7 +13,7 @@
                     CRUD - <a href="https://github.com/ilhamhanifpamulia/uts-18090027.git" target="_blank">By !8090027</a>
                 </div>
                 <div class="card-body">
-                    <a href="/pegawai/tambah" class="btn btn-primary">Tambah Data Baru</a>
+                    <a href="/hp/tambah" class="btn btn-primary">Tambah Data Baru</a>
                     <br/>
                     <br/>
                     <table class="table table-bordered table-hover table-striped">
@@ -32,8 +32,8 @@
                                 <td>{{ $p->alamat }}</td>
                                 <td>{{ $p->nip }}</td>
                                 <td>
-                                    <a href="/pegawai/edit/{{ $p->id }}" class="btn btn-warning">Edit</a>
-                                    <a href="/pegawai/hapus/{{ $p->id }}" class="btn btn-danger">Hapus</a>
+                                    <a href="/hp/edit/{{ $p->id }}" class="btn btn-warning">Edit</a>
+                                    <a href="/hp/hapus/{{ $p->id }}" class="btn btn-danger">Hapus</a>
                                 </td>
                             </tr>
                             @endforeach
