@@ -46,7 +46,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Tahun</label>
+                            <label>Tahun produksi</label>
                             <input type="integer" name="nip" class="form-control" placeholder="Masukan Tahun">
  
                             @if($errors->has('nip'))
