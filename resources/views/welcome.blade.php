@@ -56,8 +56,6 @@
             <h2 class="title">Contact me</h2>
             <div class="contact-content">
                 <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
