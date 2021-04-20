@@ -13,11 +13,11 @@
                     CRUD Data Pegawai - <strong>TAMBAH DATA</strong> - <a href="https://kagion.github.io/" target="_blank">By Sugiono</a>
                 </div>
                 <div class="card-body">
-                    <a href="/pegawai" class="btn btn-primary">Kembali</a>
+                    <a href="/hp" class="btn btn-primary">Kembali</a>
                     <br/>
                     <br/>
                     
-                    <form method="post" action="/pegawai/store">
+                    <form method="post" action="/hp/store">
  
                         {{ csrf_field() }}
 

@@ -10,15 +10,15 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header text-center">
-                    CRUD Data Pegawai - <strong>EDIT DATA</strong> - <a href="https://kagion.github.io/" target="_blank">By Sugiono</a>
+                    CRUD Data Pegawai - <strong>EDIT DATA</strong>
                 </div>
                 <div class="card-body">
-                    <a href="/pegawai" class="btn btn-primary">Kembali</a>
+                    <a href="/hp" class="btn btn-primary">Kembali</a>
                     <br/>
                     <br/>
                     
  
-                    <form method="post" action="/pegawai/update/{{ $pegawai->id }}">
+                    <form method="post" action="/hp/update/{{ $pegawai->id }}">
  
                         {{ csrf_field() }}
                         {{ method_field('PUT') }}
