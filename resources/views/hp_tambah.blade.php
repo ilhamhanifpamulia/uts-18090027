@@ -65,5 +65,5 @@
             </div>
         </div>
     </body>
-    <a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a>
+    <center><a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a></center>
 </html>
