@@ -26,8 +26,8 @@
 
  
                         <div class="form-group">
-                            <label>Nama</label>
-                            <input type="text" name="nama" class="form-control" placeholder="Nama pegawai .." value=" {{ $pegawai->nama }}">
+                            <label>Merk HP</label>
+                            <input type="text" name="nama" class="form-control" placeholder="Merk HP .." value=" {{ $pegawai->nama }}">
  
                             @if($errors->has('nama'))
                                 <div class="text-danger">
@@ -38,8 +38,8 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Alamat</label>
-                            <textarea name="alamat" class="form-control" placeholder="Alamat pegawai .."> {{ $pegawai->alamat }} </textarea>
+                            <label>Tipe HP</label>
+                            <textarea name="alamat" class="form-control" placeholder="Tipe HP .."> {{ $pegawai->alamat }} </textarea>
  
                              @if($errors->has('alamat'))
                                 <div class="text-danger">
@@ -51,7 +51,7 @@
 
                         <div class="form-group">
                             <label>Tahun produksi</label>
-                            <input type="integer" name="nip" class="form-control" placeholder="nip pegawai" value=" {{ $pegawai->nip }}">
+                            <input type="integer" name="nip" class="form-control" placeholder="Tahun Produksi .." value=" {{ $pegawai->nip }}">
  
                             @if($errors->has('nip'))
                                 <div class="text-danger">
