@@ -9,7 +9,7 @@
     <body>
         <div class="container">
             <div class="card mt-5">
-                <div class="card-header text-center">
+                <div class="card-header bg-dark text-center text-white">
                 <strong>EDIT DATA</strong>
                 </div>
                 <div class="card-body">
