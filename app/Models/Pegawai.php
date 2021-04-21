@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pegawai extends Model
 {
-    protected $table = 'pegawai';
+    protected $table = 'hp';
     protected $fillable = ['nip','nama','alamat'];
     use HasFactory;
 }
