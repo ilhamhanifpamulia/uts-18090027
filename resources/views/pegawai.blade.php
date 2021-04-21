@@ -26,7 +26,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach($hp as $p)
+                            @foreach($pegawai as $p)
                             <tr>
                                 <td>{{ $p->nama }}</td>
                                 <td>{{ $p->alamat }}</td>
