@@ -9,8 +9,8 @@ class PegawaiController extends Controller
 {
     public function index()
     {
-    	$pegawai = Pegawai::all();
-    	return view('hp', ['hp' => $pegawai]);
+    	$hp = Pegawai::all();
+    	return view('hp', ['hp' => $hp]);
     }
     public function tambah(){
         return view('hp_tambah');
