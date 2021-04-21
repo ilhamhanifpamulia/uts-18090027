@@ -16,7 +16,7 @@
                     <a href="/hp" class="btn btn-primary">Kembali</a>
                     <br/>
                     <br/>
-                    
+                      
                     <form method="post" action="/hp/store">
  
                         {{ csrf_field() }}

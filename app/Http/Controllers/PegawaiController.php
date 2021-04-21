@@ -13,7 +13,7 @@ class PegawaiController extends Controller
     	return view('pegawai', ['pegawai' => $pegawai]);
     }
     public function tambah(){
-        return view('pegawai_tambah');
+        return view('hp_tambah');
     }
 
     public function store(Request $request){
