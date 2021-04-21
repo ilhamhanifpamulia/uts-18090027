@@ -10,7 +10,7 @@ class PegawaiController extends Controller
     public function index()
     {
     	$pegawai = Pegawai::all();
-    	return view('hp', ['hp' => $pegawai]);
+    	return view('pegawai', ['pegawai' => $pegawai]);
     }
     public function tambah(){
         return view('hp_tambah');
@@ -34,7 +34,7 @@ class PegawaiController extends Controller
 
     public function edit($id){
         $pegawai = Pegawai::find($id);
-        return view('hp_edit', ['hp' => $pegawai]);
+        return view('hp_edit', ['pegawai' => $pegawai]);
     }
 
     public function update($id, Request $request){
