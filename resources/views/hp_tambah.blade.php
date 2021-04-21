@@ -9,7 +9,7 @@
     <body>
         <div class="container">
             <div class="card mt-5">
-                <div class="card-header text-center">
+                <div class="card-header bg-success text-center">
                 <strong>TAMBAH DATA</strong> - <a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a>
                 </div>
                 <div class="card-body">
