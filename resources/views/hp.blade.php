@@ -13,7 +13,7 @@
                 Aplikasi perekaman data HP - <a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a>
                 </div>
                 <div class="card-body">
-                    <a href="/hp/tambah" class="btn btn-primary">Tambah Data Baru</a> <td><a href="/" class="btn btn-danger">Kembali</a></td>>
+                    <a href="/hp/tambah" class="btn btn-primary">Tambah Data Baru</a> <td><a href="/" class="btn btn-danger">Kembali</a></td>
                     <br/>
                     <br/>
                     <table class="table table-bordered table-hover table-striped">
