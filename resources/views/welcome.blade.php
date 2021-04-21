@@ -20,7 +20,7 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Aplikasi perekaman data<span>HP</span></a></div>
+            <div class="logo"><a href="#">Aplikasi perekaman data<span> HP</span></a></div>
             <ul class="menu">
                 <li><a href="https://uts-18090027.herokuapp.com/hp" class="menu-btn">Aplikasi</a></li>
             </ul>
