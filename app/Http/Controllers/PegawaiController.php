@@ -34,7 +34,7 @@ class PegawaiController extends Controller
 
     public function edit($id){
         $pegawai = Pegawai::find($id);
-        return view('hp_edit', ['hp' => $pegawai]);
+        return view('hp_edit', ['pegawai' => $pegawai]);
     }
 
     public function update($id, Request $request){
