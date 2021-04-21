@@ -10,7 +10,7 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-success text-center">
-                <strong>TAMBAH DATA</strong> - <a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a>
+                <strong>TAMBAH DATA</strong> 
                 </div>
                 <div class="card-body">
                     <a href="/hp" class="btn btn-primary">Kembali</a>
@@ -60,11 +60,10 @@
                         <div class="form-group">
                             <input type="submit" class="btn btn-warning" value="Simpan">
                         </div>
- 
                     </form>
- 
                 </div>
             </div>
         </div>
     </body>
+    <a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a>
 </html>

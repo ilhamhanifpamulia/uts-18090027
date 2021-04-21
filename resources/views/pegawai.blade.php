@@ -10,7 +10,7 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-danger text-center">
-                Aplikasi perekaman data HP
+                Aplikasi perekaman data HP 
                 </div>
                 <div class="card-body">
                     <a href="/hp/tambah" class="btn btn-primary">Tambah Data Baru</a> <td><a href="/" class="btn btn-danger">Kembali</a></td>
@@ -26,7 +26,6 @@
                             </tr>
                         </thead>
                         <tbody>
-                        <a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a>
                             @foreach($pegawai as $p)
                             <tr>
                                 <td>{{ $p->nama }}</td>
@@ -39,7 +38,7 @@
                             </tr>
                             @endforeach
                         </tbody>
-                    </table>
+                    </table><a href="https://github.com/ilhamhanifpamulia" target="_blank">By 18090027</a>
                 </div>
             </div>
         </div>
